@@ -64,3 +64,5 @@ In analyzing model performance, I aimed to identify the most accurate predictor 
  
 ### Conclusion
 In conclusion, by defining eight distinct features for extraction and evaluating them across various machine learning models, I was able to observe differences in language usage between positive and negative reviews, as well as gain insights into model performance across multiple features. My analysis revealed that model performance varied significantly depending on the feature. For instance, Gaussian Naive Bayes and Bernoulli Naive Bayes models performed exceptionally well on certain features but poorly on others. Conversely, Decision Tree and Random Forest models (with the exception of feature 6) consistently demonstrated poor performance across all features. Notably, for feature 5, all models achieved near-perfect accuracy, indicating high performance. However, this near-perfect accuracy suggests the potential issue of overfitting, warranting further investigation.
+
+
