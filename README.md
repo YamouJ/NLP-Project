@@ -20,15 +20,26 @@ The dataset utilized in this analysis is the Movie Reviews Corpora from the NLTK
 ### Research Question: 
 Our inquiry aims to identify textual features influencing the classification of movie reviews into positive or negative sentiment categories. This investigation is pivotal for understanding the linguistic nuances distinguishing positive and negative expressions in reviews, thereby shedding light on how emotions and sentiments are conveyed through language. Enhanced Marketing Strategies: Movie studios and distributors can leverage sentiment analysis of reviews to devise more effective marketing strategies. By identifying the key positive attributes that resonate with audiences, they can highlight these aspects in promotional materials to attract more viewers.
 
+<img width="574" alt="Screenshot 2024-06-27 at 3 48 42 PM" src="https://github.com/YamouJ/NLP-Project/assets/167350506/5f629a88-5528-49a1-b62f-231175b31d22">
+<img width="574" alt="Screenshot 2024-06-27 at 3 48 20 PM" src="https://github.com/YamouJ/NLP-Project/assets/167350506/7f2e4ad1-3a35-40db-a0fb-8ec11059f6d3">
+
+
 ### Text Preprocessing: 
 To ensure data accuracy and quality, comprehensive preprocessing steps were executed. These included converting all text to lowercase for consistency and reduced vocabulary size, removing non-alphanumeric characters, punctuation marks, numbers, and symbols. Additionally, common but semantically insignificant words such as "the", "is", "and", etc., were eliminated. Insights from sentiment analysis can inform decision-making processes related to content creation and curation. Movie producers can identify successful themes, genres, or storytelling techniques that elicit positive reactions from audiences and incorporate them into future productions.
+
+<img width="574" alt="Screenshot 2024-06-27 at 3 55 06 PM" src="https://github.com/YamouJ/NLP-Project/assets/167350506/ab3c84e7-2492-4086-9327-097cbf3aee60">
+
 
 ### Text Analytic Methods: 
 Various text analytic methods were employed, encompassing the extraction of the 2000 Most Frequent Words, 2000 most frequent bigrams, 2000 Most Frequent Trigrams, 1000 Most Frequent Words in Positive Reviews not present in Negative Reviews, and vice versa. Moreover, Unique Words Contained in the Positive/Negative Lexicon Database, Frequency of Emotional Language in Positive and Negative Reviews, Topic Models, and TF-IDF were analyzed. The dataset was divided into training and test sets, with 70% used for training and the remaining 30% for testing. A range of machine learning models including Naive Bayes (Gaussian and Bernoulli), Logistic Regression, Nearest Neighbors, Random Forest, Decision Tree, Support Vector Machine (with kernels: Linear, Polynomial, Radial Basis Function (RBF), and Sigmoid), Neural Net, and AdaBoost were evaluated. For ease of access, a model list containing the models and their functions was created. Performance evaluation of each model was conducted using a classification report, assessing accuracy, precision, recall, and F1-score.
 
+<img width="574" alt="Screenshot 2024-06-27 at 3 43 20 PM" src="https://github.com/YamouJ/NLP-Project/assets/167350506/070059e7-0709-47eb-96d3-1b86653bb891">
+<img width="574" alt="Screenshot 2024-06-27 at 3 43 56 PM" src="https://github.com/YamouJ/NLP-Project/assets/167350506/a568aa04-0894-4a7d-8fd3-6b4a98eb0b9f">
+
+
 ### Results and Findings
 
-In analyzing model performance, I aimed to identify the most accurate predictor among various models. Comparing the results, Naive Bayes and Support Vector Machines emerged as consistently superior in accuracy. These findings emphasize the reliability of these models across diverse features, aiding in informed model selection and potential refinements
+In analyzing model performance, I aimed to identify the most accurate predictor among various models. Comparing the results, Naive Bayes and Support Vector Machines emerged as consistently superior in accuracy. These findings emphasize the reliability of these models across diverse features, aiding in informed model selection and potential refinements.
 
 
 ### Practical implications:
@@ -65,4 +76,5 @@ In analyzing model performance, I aimed to identify the most accurate predictor 
 ### Conclusion
 In conclusion, by defining eight distinct features for extraction and evaluating them across various machine learning models, I was able to observe differences in language usage between positive and negative reviews, as well as gain insights into model performance across multiple features. My analysis revealed that model performance varied significantly depending on the feature. For instance, Gaussian Naive Bayes and Bernoulli Naive Bayes models performed exceptionally well on certain features but poorly on others. Conversely, Decision Tree and Random Forest models (with the exception of feature 6) consistently demonstrated poor performance across all features. Notably, for feature 5, all models achieved near-perfect accuracy, indicating high performance. However, this near-perfect accuracy suggests the potential issue of overfitting, warranting further investigation.
 
+<img width="1050" alt="Screenshot 2024-06-27 at 3 33 20 PM" src="https://github.com/YamouJ/NLP-Project/assets/167350506/322be2e0-9d1f-41b0-8e9c-a0dd46db263a">
 
